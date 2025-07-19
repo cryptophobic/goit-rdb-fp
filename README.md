@@ -5,22 +5,21 @@
 1. Завантажте дані:
 
 - Створіть схему pandemic у базі даних за допомогою `SQL`-команди.
-```SQL
+```MySQL
 CREATE SCHEMA pandemic;
 ```
 
 - Оберіть її як схему за замовчуванням за допомогою `SQL`-команди.
 
-```SQL
+```MySQL
 USE pandemic;
 ```
 
 - Імпортуйте дані за допомогою `Import wizard` так, як ви вже робили це у темі 3.
 - Продивіться дані, щоб бути у контексті.
-```SQL
+```MySQL
 SHOW CREATE TABLE infectious_cases;
-```
-```sql
+
 CREATE TABLE `infectious_cases` (
     `Entity` text,
     `Code` text,
@@ -35,8 +34,7 @@ CREATE TABLE `infectious_cases` (
     `Number_smallpox` text,
     `Number_cholera_cases` text
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
-```
-```SQL
+
 SELECT * FROM infectious_cases;
 ```
 
@@ -47,10 +45,9 @@ SELECT * FROM infectious_cases;
 </a>
 
 - Виконайте запит `SELECT COUNT(*) FROM infectious_cases` , щоб ментор міг зрозуміти, скільки записів ви завантажили у базу даних із файла.
-```SQL
+```MySQL
 SELECT count(*) FROM infectious_cases;
-```
-```
+
 7271
 ```
 <a href="2.count.png">
@@ -59,8 +56,7 @@ SELECT count(*) FROM infectious_cases;
 
 2. Нормалізуйте таблицю `infectious_cases` до 3ї нормальної форми. Збережіть у цій же схемі дві таблиці з нормалізованими даними.
 
-```SQL
-
+```MySQL
 # Таблиця країн
 CREATE TABLE countries (
     id INT AUTO_INCREMENT PRIMARY KEY,
