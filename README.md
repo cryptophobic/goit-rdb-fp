@@ -1,5 +1,3 @@
-# goit-rdb-fp
-
 # Фінальний проєкт з дисципліни Relational Databases: Concepts and Techniques!
 
 1. Завантажте дані:
