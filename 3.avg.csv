@@ -1,0 +1,11 @@
+entity,code,name,avg_rabies
+World,OWID_WRL,number_rabies,20192.370442708332
+India,IND,number_rabies,8599.173258463541
+Pakistan,PAK,number_rabies,1582.16962890625
+Nigeria,NGA,number_rabies,1335.4154907226562
+China,CHN,number_rabies,1247.9067301432292
+Ethiopia,ETH,number_rabies,1145.1725158691406
+Myanmar,MMR,number_rabies,972.9036844889323
+Bangladesh,BGD,number_rabies,785.7088226318359
+Nepal,NPL,number_rabies,661.250863647461
+Philippines,PHL,number_rabies,618.691005452474
